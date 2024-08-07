@@ -1,0 +1,53 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cursive', Arial, sans-serif;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #860f86;
+    
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    font-family: 'Cursive', Arial, sans-serif;
+    /* Fuente estética */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    transition: opacity 1s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('you!.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-image: url('FelizCumpleañosMaria.mp4');
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+}
